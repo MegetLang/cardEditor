@@ -1,0 +1,32 @@
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Card Editor.exe.config
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Card Editor.exe
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Card Editor.pdb
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Card Editor.exe.CodeAnalysisLog.xml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Card Editor.exe.lastcodeanalysissucceeded
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.dll
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\System.Windows.Interactivity.dll
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.pdb
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.xml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor.csprojResolveAssemblyReference.cache
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor_MarkupCompile.cache
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor_MarkupCompile.lref
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor.g.resources
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card_Editor.Properties.Resources.resources
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor.csproj.GenerateResource.Cache
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor.exe
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\Card Editor.pdb
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\MainWindow.baml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\Skins\MainSkin.baml
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\MainWindow.g.cs
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\App.g.cs
+c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\App.baml
