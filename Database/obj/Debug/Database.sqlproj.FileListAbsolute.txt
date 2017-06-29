@@ -1,0 +1,9 @@
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\bin\Debug\Database.dacpac
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\bin\Debug\Database.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\bin\Debug\Database.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\obj\Debug\Model.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\obj\Debug\refactor.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\obj\Debug\postdeploy.sql
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\obj\Debug\predeploy.sql
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\obj\Debug\Database.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Database\obj\Debug\Database.pdb

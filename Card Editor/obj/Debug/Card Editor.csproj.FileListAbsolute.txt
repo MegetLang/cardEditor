@@ -30,3 +30,6 @@ c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj
 c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\MainWindow.g.cs
 c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\App.g.cs
 c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj\Debug\View\App.baml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Card Editor.exe.config
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.exe
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.pdb
