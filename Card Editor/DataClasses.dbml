@@ -1,1 +1,13 @@
-﻿
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=Database;Integrated Security=True" SettingsObjectName="Card_Editor.Properties.Settings" SettingsPropertyName="DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Cards" Member="Cards">
+    <Type Name="Cards">
+      <Column Name="Name" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Strength" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Defense" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Mana Cost]" Member="Mana_Cost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Artwork" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

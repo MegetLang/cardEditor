@@ -33,3 +33,36 @@ c:\users\lasek\documents\visual studio 2015\Projects\Card Editor\Card Editor\obj
 C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Card Editor.exe.config
 C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.exe
 C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.csprojResolveAssemblyReference.cache
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\MainWindow.baml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\Skins\MainSkin.baml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\MainWindow.g.cs
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\App.g.cs
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor_MarkupCompile.cache
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor_MarkupCompile.lref
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\CardBrowser.g.cs
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Card Editor.exe
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Card Editor.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Card Editor.exe.CodeAnalysisLog.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Card Editor.exe.lastcodeanalysissucceeded
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\App.baml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\View\CardBrowser.baml
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.g.resources
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card_Editor.Properties.Resources.resources
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\Card Editor.csproj.GenerateResource.Cache

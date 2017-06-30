@@ -34,11 +34,16 @@
             <TextBlock Grid.Row="1" Grid.Column="0" Text="Type" VerticalAlignment="Center"/>
 
             <TextBox x:Name="CardName" Grid.Row="0" Grid.Column="1" Text="{Binding CardName}" Height="20"/>
-            <ComboBox x:Name="TypeSelect" Grid.Row="1" Grid.Column="1" Width="100" Height="20" HorizontalAlignment="Left"/>
+            <ComboBox x:Name="TypeSelect" Grid.Row="1" Grid.Column="1" Width="100" Height="20" HorizontalAlignment="Left">
+                <ComboBoxItem>Blue</ComboBoxItem>
+                <ComboBoxItem>Red</ComboBoxItem>
+                <ComboBoxItem>Yellow</ComboBoxItem>
+                <ComboBoxItem>Green</ComboBoxItem>
+            </ComboBox>
             <Button x:Name="newTypeButton" Grid.Row="1" Grid.Column="1" Width="60" Height="20" HorizontalAlignment="Right" Content="New"/>
-            <Button x:Name="artworkSelect" Grid.Row="2" Grid.Column="1" Content="Select Artwork" Width="130"/>
-            <Button x:Name="saveCard" Content="Save" Grid.Row="3" Grid.Column="0" Width="60" Height="20" VerticalAlignment="Bottom"/>
-            <Button x:Name="loadCard" Content="Open" Grid.Row="3" Grid.Column="1" Width="60" Height="20" VerticalAlignment="Bottom"/>
+            <Button x:Name="artworkSelect" Grid.Row="2" Grid.Column="1" Content="Select Artwork" Width="130" Click="artworkSelect_Click"/>
+            <Button x:Name="saveCard" Content="Save" Grid.Row="3" Grid.Column="0" Width="60" Height="20" VerticalAlignment="Bottom" Click="saveCard_Click"/>
+            <Button x:Name="loadCard" Content="Browse" Grid.Row="3" Grid.Column="1" Width="60" Height="20" VerticalAlignment="Bottom" Click="loadCard_Click"/>
 
             <Grid x:Name="Stats" Grid.Row="2" Grid.Column="0">
                 <Grid.RowDefinitions>
@@ -62,9 +67,9 @@
                     </Style>
                 </Grid.Resources>
 
-                <TextBox Grid.Row="0" Grid.Column="1"  Text="{Binding Strength}"/>
-                <TextBox Grid.Row="1" Grid.Column="1"  Text="{Binding Defense}"/>
-                <TextBox Grid.Row="2" Grid.Column="1"  Text="{Binding ManaCost}"/>
+                <TextBox x:Name="StrengthBox" Grid.Row="0" Grid.Column="1"  Text="{Binding Strength}"/>
+                <TextBox x:Name="DefenseBox" Grid.Row="1" Grid.Column="1"  Text="{Binding Defense}"/>
+                <TextBox x:Name="ManaBox" Grid.Row="2" Grid.Column="1"  Text="{Binding ManaCost}"/>
 
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Strength"/>
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Defense"/>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Lasek\Documents\Visual Studio 2015\Projects\Card Editor\Card Editor\obj\Debug\
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\obj\Debug\
 Card_Editor
 none
 false
 CODE_ANALYSIS;DEBUG;TRACE
-C:\Users\Lasek\Documents\Visual Studio 2015\Projects\Card Editor\Card Editor\View\App.xaml
-2-2119055276
+C:\Users\Lasek\Documents\GitHub\cardEditor\Card Editor\View\App.xaml
+3-1304457239
 
-8236930643
-681661989237
-View\MainWindow.xaml;View\Skins\MainSkin.xaml;
+101879257918
+70279097028
+View\CardBrowser.xaml;View\MainWindow.xaml;View\Skins\MainSkin.xaml;
 
 False
 

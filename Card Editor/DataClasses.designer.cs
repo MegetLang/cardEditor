@@ -22,6 +22,7 @@ namespace Card_Editor
 	using System;
 	
 	
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="Database")]
 	public partial class DataClassesDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -29,7 +30,16 @@ namespace Card_Editor
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
+    partial void InsertCards(Cards instance);
+    partial void UpdateCards(Cards instance);
+    partial void DeleteCards(Cards instance);
     #endregion
+		
+		public DataClassesDataContext() : 
+				base(global::Card_Editor.Properties.Settings.Default.DatabaseConnectionString, mappingSource)
+		{
+			OnCreated();
+		}
 		
 		public DataClassesDataContext(string connection) : 
 				base(connection, mappingSource)
@@ -53,6 +63,196 @@ namespace Card_Editor
 				base(connection, mappingSource)
 		{
 			OnCreated();
+		}
+		
+		public System.Data.Linq.Table<Cards> Cards
+		{
+			get
+			{
+				return this.GetTable<Cards>();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Cards")]
+	public partial class Cards : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _Name;
+		
+		private string _Type;
+		
+		private System.Nullable<int> _Strength;
+		
+		private System.Nullable<int> _Defense;
+		
+		private System.Nullable<int> _Mana_Cost;
+		
+		private string _Artwork;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnNameChanging(string value);
+    partial void OnNameChanged();
+    partial void OnTypeChanging(string value);
+    partial void OnTypeChanged();
+    partial void OnStrengthChanging(System.Nullable<int> value);
+    partial void OnStrengthChanged();
+    partial void OnDefenseChanging(System.Nullable<int> value);
+    partial void OnDefenseChanged();
+    partial void OnMana_CostChanging(System.Nullable<int> value);
+    partial void OnMana_CostChanged();
+    partial void OnArtworkChanging(string value);
+    partial void OnArtworkChanged();
+    #endregion
+		
+		public Cards()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Name", DbType="NChar(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string Name
+		{
+			get
+			{
+				return this._Name;
+			}
+			set
+			{
+				if ((this._Name != value))
+				{
+					this.OnNameChanging(value);
+					this.SendPropertyChanging();
+					this._Name = value;
+					this.SendPropertyChanged("Name");
+					this.OnNameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Type", DbType="NChar(10)")]
+		public string Type
+		{
+			get
+			{
+				return this._Type;
+			}
+			set
+			{
+				if ((this._Type != value))
+				{
+					this.OnTypeChanging(value);
+					this.SendPropertyChanging();
+					this._Type = value;
+					this.SendPropertyChanged("Type");
+					this.OnTypeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Strength", DbType="Int")]
+		public System.Nullable<int> Strength
+		{
+			get
+			{
+				return this._Strength;
+			}
+			set
+			{
+				if ((this._Strength != value))
+				{
+					this.OnStrengthChanging(value);
+					this.SendPropertyChanging();
+					this._Strength = value;
+					this.SendPropertyChanged("Strength");
+					this.OnStrengthChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Defense", DbType="Int")]
+		public System.Nullable<int> Defense
+		{
+			get
+			{
+				return this._Defense;
+			}
+			set
+			{
+				if ((this._Defense != value))
+				{
+					this.OnDefenseChanging(value);
+					this.SendPropertyChanging();
+					this._Defense = value;
+					this.SendPropertyChanged("Defense");
+					this.OnDefenseChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Mana Cost]", Storage="_Mana_Cost", DbType="Int")]
+		public System.Nullable<int> Mana_Cost
+		{
+			get
+			{
+				return this._Mana_Cost;
+			}
+			set
+			{
+				if ((this._Mana_Cost != value))
+				{
+					this.OnMana_CostChanging(value);
+					this.SendPropertyChanging();
+					this._Mana_Cost = value;
+					this.SendPropertyChanged("Mana_Cost");
+					this.OnMana_CostChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Artwork", DbType="NChar(10)")]
+		public string Artwork
+		{
+			get
+			{
+				return this._Artwork;
+			}
+			set
+			{
+				if ((this._Artwork != value))
+				{
+					this.OnArtworkChanging(value);
+					this.SendPropertyChanging();
+					this._Artwork = value;
+					this.SendPropertyChanged("Artwork");
+					this.OnArtworkChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
 		}
 	}
 }
